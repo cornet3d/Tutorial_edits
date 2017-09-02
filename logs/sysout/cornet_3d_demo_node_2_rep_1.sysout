@@ -1,0 +1,64 @@
+linux; GNU C++ version 4.8.4; Boost_105400; UHD_003.009.005-0-g32951af2
+
+SIMD CPU detect: Portable C
+linux; GNU C++ version 4.8.4; Boost_105400; UHD_003.009.005-0-g32951af2
+
+Log file name: logs/bin/cornet_3d_demo_node_2_cognitive_radio_net_rx.log
+Output file name: logs/octave/cornet_3d_demo_node_2_cognitive_radio_net_rx.m
+linux; GNU C++ version 4.8.4; Boost_105400; UHD_003.009.005-0-g32951af2
+
+Log file name: logs/bin/cornet_3d_demo_node_2_cognitive_radio_phy_rx.log
+Output file name: logs/octave/cornet_3d_demo_node_2_cognitive_radio_phy_rx.m
+linux; GNU C++ version 4.8.4; Boost_105400; UHD_003.009.005-0-g32951af2
+
+Log file name: logs/bin/cornet_3d_demo_node_2_cognitive_radio_phy_tx.log
+Output file name: logs/octave/cornet_3d_demo_node_2_cognitive_radio_phy_tx.m
+
+--------------------------------------------------------------
+-                    node parameters                         -
+--------------------------------------------------------------
+General Settings:
+    Team name:                         Team B
+    Node type:                         Cognitive Radio
+    Cognitive Radio type:              Extensible Cognitive Radio
+    Server IP:                         192.168.1.34
+
+Virtual Network Interface Settings:
+    CRTS IP:                           10.0.0.3
+    Target IP:                         10.0.0.2
+    Traffic pattern:                   stream
+    Average throughput:                2000000.00
+
+Cognitive Engine Settings:
+    Cognitive Engine:                  CE_Template
+    CE timeout:                        200000.00
+
+Log/Report Settings:
+    Physical layer rx log file:        cornet_3d_demo_node_2_cognitive_radio_phy_rx
+    Physical layer tx log file:        cornet_3d_demo_node_2_cognitive_radio_phy_tx
+    Network layer rx log file:         cornet_3d_demo_node_2_cognitive_radio_net_rx
+    Network layer tx log file:         cornet_3d_demo_node_2_cognitive_radio_net_tx
+    Generate octave logs:              1
+
+Initial USRP Settings:
+    Receive frequency:                 8.66e+08
+    Receive rate:                      1.00e+06
+    Receive gain:                      0.00
+    Transmit frequency:                8.61e+08
+    Transmit rate:                     1.00e+06
+    Transmit gain:                     0.00
+
+Initial Liquid OFDM Settings
+    Receive subcarriers:               32
+    Receive cyclic prefix length:      16
+    Receive taper length:              4
+    Transmit subcarriers:              32
+    Transmit cyclic prefix length:     16
+    Transmit taper length:             4
+    Transmit soft gain:                -12.00
+    Transmit modulation:               qpsk
+    Transmit CRC:                      crc32
+    Transmit FEC0:                     v29
+    Transmit FEC1:                     none
+--------------------------------------------------------------
+CRTS: Reached termination. Sending termination message to controller
